@@ -39,7 +39,7 @@ async function getStockPrice(stockSymbol)
   }
 }
 
-const symbol = 'WE'; // Replace this with the stock symbol you want to query
+const symbol = ''; // Replace this with the stock symbol you want to query
 getStockPrice(symbol)
   .then((result) => console.log(result))
   .catch((error) => console.error(error));
