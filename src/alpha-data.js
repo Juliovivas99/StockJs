@@ -1,3 +1,5 @@
+//console node src/alpha-data.js to run the program
+
 const axios = require('axios');
 require('dotenv').config();
 

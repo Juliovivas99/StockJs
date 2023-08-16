@@ -1,6 +1,8 @@
+//console 'node src/index.js' to run the program
 const axios = require('axios');
 const fs = require('fs');
 require('dotenv').config();
+
 
 
 async function getStockPrice(stockSymbol) 
